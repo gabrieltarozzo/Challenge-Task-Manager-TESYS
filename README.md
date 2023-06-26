@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
@@ -62,3 +63,7 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+=======
+# Challenge-Task-Manager-TESYS
+Sistema de gerenciamento de tarefas que permita aos usuários criar, visualizar, atualizar e excluir tarefas. O sistema tem uma interface de usuário intuitiva e responsiva, seguindo os princípios do MVC (Model-View-Controller). 
+>>>>>>> 6841d083c52e1309dd8804e0247275dbe4431dbe
