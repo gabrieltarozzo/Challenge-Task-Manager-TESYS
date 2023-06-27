@@ -11,6 +11,24 @@ Certifique-se de ter os seguintes requisitos instalados em sua máquina:
 - Node.js
 - NPM
 
+## Tecnologias Utilizadas
+
+- HTML
+- CSS
+- JavaScript
+- PHP
+- Laravel
+- MySQL
+- jQuery
+- Bootstrap
+- Toast Bootstrap
+- Git
+- Composer
+- npm
+- Laravel Mix
+- Blade (Laravel Template Engine)
+- Eloquent ORM
+
 ## Configuração
 
 1. Clone o repositório para sua máquina local.
