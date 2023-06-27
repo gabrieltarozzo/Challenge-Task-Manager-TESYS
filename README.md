@@ -1,69 +1,37 @@
-<<<<<<< HEAD
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+# Task Manager
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Aqui contém instruções para configurar o ambiente e executar o projeto
 
-## About Laravel
+## Requisitos
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Certifique-se de ter os seguintes requisitos instalados em sua máquina:
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+- PHP >= 7.4
+- Composer
+- Node.js
+- NPM
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Configuração
 
-## Learning Laravel
+1. Clone o repositório para sua máquina local.
+2. Execute o comando `composer install` para instalar as dependências do Laravel.
+3. Renomeie o arquivo `.env.example` para `.env` e configure as variáveis de ambiente, como as informações do banco de dados.
+4. Execute o comando `php artisan key:generate` para gerar a chave de criptografia do aplicativo Laravel.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## Banco de Dados
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+1. Execute o comando `php artisan migrate` para criar as tabelas do banco de dados.
+2. Opcionalmente, você pode executar o comando `php artisan db:seed` para popular o banco de dados com dados de exemplo.
+(foi deixado pronto para popular o banco.)
 
-## Laravel Sponsors
+## Mix do Laravel
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+1. Execute o comando `npm install` para instalar as dependências do Mix do Laravel.
+2. Execute o comando `npm run dev` para compilar os arquivos de recursos (JS, CSS, etc.) usando o Mix do Laravel.
 
-### Premium Partners
+Se você deseja compilar automaticamente os arquivos de recursos sempre que houver alterações, use o seguinte comando `npm run watch`
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+## Executando o aplicativo
 
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-=======
-# Challenge-Task-Manager-TESYS
-Sistema de gerenciamento de tarefas que permita aos usuários criar, visualizar, atualizar e excluir tarefas. O sistema tem uma interface de usuário intuitiva e responsiva, seguindo os princípios do MVC (Model-View-Controller). 
->>>>>>> 6841d083c52e1309dd8804e0247275dbe4431dbe
+1. Execute o comando `php artisan serve` para iniciar o servidor de desenvolvimento do Laravel.
+2. Abra o navegador e acesse o endereço `http://localhost:8000` para visualizar o aplicativo.
